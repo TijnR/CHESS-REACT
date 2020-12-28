@@ -10,8 +10,10 @@ function App() {
     return () => subscribe.unsubscribe();
   }, []);
   return (
-    <div>
+    <div className="container">
+      <div className="board-container">
       <Board board={board} />
+      </div>
     </div>
   );
 }
